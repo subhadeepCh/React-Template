@@ -1,0 +1,15 @@
+.root {
+  background-color: #dfe2e5;
+  width: 95%;
+  height: 95%;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 8px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button{
+    margin: 0.5rem;
+    width: 20rem;
+}

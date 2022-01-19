@@ -1,0 +1,13 @@
+.counter-body {
+  width: 15rem;
+  height: 17rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 0px;
+}
+
+.screen {
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}

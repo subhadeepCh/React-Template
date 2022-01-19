@@ -1,10 +1,10 @@
 import { all, fork } from "redux-saga/effects";
-import * as TestSaga from "./test.saga";
+import * as DataSaga from "./data.saga";
 
 export default function* rootSagas() {
   yield all(
     [
-      ...Object.values(TestSaga),
+      ...Object.values(DataSaga),
       // () => namedSaga()
     ].map(fork)
   );

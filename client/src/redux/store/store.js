@@ -19,6 +19,7 @@ export const store = createStore(
       )
     : applyMiddleware(...middlewares)
 );
+
 sagaMiddleware.run(rootSagas);
 export const persistor = persistStore(store);
 
