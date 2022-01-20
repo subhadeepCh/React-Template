@@ -12,7 +12,7 @@ import lossOfPayReducer2 from "./lop2.reducer";
 
 const persistConfig = {
   key: "root",
-  storage: storageSession,
+  storage: storage,
   whitelist: ["persistCounter"],
 };
 
@@ -25,4 +25,4 @@ const rootReducer = combineReducers({
   lop2: lossOfPayReducer2
 });
 
-export default persistReducer(persistConfig, rootReducer);
+export default persistReducer(persistConfig, rootReducer); //returns an enhanced reducer

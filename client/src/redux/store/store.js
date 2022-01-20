@@ -21,7 +21,7 @@ export const store = createStore(
 );
 
 sagaMiddleware.run(rootSagas);
-export const persistor = persistStore(store);
+export const persistor = persistStore(store); // returns persistor object with some methods
 
 const storeObject = { store, persistor }
 

@@ -13,6 +13,7 @@ export const sendAmount = (data) => ({
   payload: data,
 });
 
+// alternate implementation
 export const calculateAmount2 = (data) => ({
   type: "CALCULATE_AMT2",
   payload: data,
